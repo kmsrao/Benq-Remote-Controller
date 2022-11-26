@@ -35,7 +35,7 @@ namespace BenQ_Remote_Control
                 _serialPort.Open();
                 if (_serialPort.IsOpen)
                 {
-                    _serialPort.WriteLine(Command);
+                    _serialPort.Write(Command);
                     _serialPort.Close();
 
                 }
@@ -44,6 +44,24 @@ namespace BenQ_Remote_Control
             {
                System.Windows.Forms.MessageBox.Show("Error in Running Command "+ Command+ "\n"+ex.Message);
                
+            }
+        }
+        public void SendLineCommand(string Command)
+        {
+            try
+            {
+                _serialPort.Open();
+                if (_serialPort.IsOpen)
+                {
+                    _serialPort.WriteLine(Command);
+                    _serialPort.Close();
+
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error in Running Command " + Command + "\n" + ex.Message);
+
             }
         }
     }

@@ -74,5 +74,10 @@ namespace BenQ_Remote_Control
         {
             serialPortCommander.SendCommand(_commands.GetCommand(Constants.SetSourceToHDMI2));
         }
+
+        private void btn_Send_Click(object sender, EventArgs e)
+        {
+            serialPortCommander.SendLineCommand(textBox1.Text);
+        }
     }
 }
