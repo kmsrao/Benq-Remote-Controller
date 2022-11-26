@@ -12,7 +12,6 @@ D:\Users\mkallu\source\repos\BenQ Remote Control\BenQ Remote Control\obj\Debug\B
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\bin\Debug\BenQ Remote Control.exe.config
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\bin\Debug\BenQ Remote Control.exe
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\bin\Debug\BenQ Remote Control.pdb
-D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.csproj.AssemblyReference.cache
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.csproj.SuggestedBindingRedirects.cache
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ_Remote_Control.Form1.resources
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ_Remote_Control.Properties.Resources.resources
