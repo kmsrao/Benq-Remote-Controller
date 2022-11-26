@@ -62,17 +62,17 @@ namespace BenQ_Remote_Control
 
         private void btn_Computer_Click(object sender, EventArgs e)
         {
-            serialPortCommander.SendCommand(Constants.SetSourceToPC);
+            serialPortCommander.SendCommand(_commands.GetCommand(Constants.SetSourceToPC));
         }
 
         private void btn_hdmi1_Click(object sender, EventArgs e)
         {
-            serialPortCommander.SendCommand(Constants.SetSourceToHDMI);
+            serialPortCommander.SendCommand(_commands.GetCommand(Constants.SetSourceToHDMI));
         }
 
         private void btn_HDMI2_Click(object sender, EventArgs e)
         {
-            serialPortCommander.SendCommand(Constants.SetSourceToHDMI2);
+            serialPortCommander.SendCommand(_commands.GetCommand(Constants.SetSourceToHDMI2));
         }
     }
 }
