@@ -25,9 +25,10 @@ namespace BenQ_Remote_Control
             _serialPort.NewLine = "\r";
             _serialPort.Encoding = Encoding.UTF8;
             _serialPort.DtrEnable = true;
+            _serialPort.ReceivedBytesThreshold = 1;
 
-            _serialPort.ReadTimeout = 500;
-            _serialPort.WriteTimeout = 500;
+            _serialPort.ReadTimeout = 2000;
+            _serialPort.WriteTimeout = 2000;
 
             _serialPort.DataReceived += _serialPort_DataReceived;
 
