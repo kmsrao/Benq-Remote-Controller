@@ -104,7 +104,7 @@
             this.btn_SendwithEnter.Name = "btn_SendwithEnter";
             this.btn_SendwithEnter.Size = new System.Drawing.Size(105, 37);
             this.btn_SendwithEnter.TabIndex = 5;
-            this.btn_SendwithEnter.Text = "Send With Enter";
+            this.btn_SendwithEnter.Text = "Send With enter";
             this.btn_SendwithEnter.UseVisualStyleBackColor = true;
             // 
             // Form1

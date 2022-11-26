@@ -19,3 +19,4 @@ D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debu
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.csproj.CoreCompileInputs.cache
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.exe
 D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.pdb
+D:\Users\mkallu\source\repos\Benq-Remote-Controller\BenQ Remote Control\obj\Debug\BenQ Remote Control.csproj.AssemblyReference.cache
