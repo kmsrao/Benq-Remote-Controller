@@ -106,6 +106,7 @@
             this.btn_SendwithEnter.TabIndex = 5;
             this.btn_SendwithEnter.Text = "Send With enter";
             this.btn_SendwithEnter.UseVisualStyleBackColor = true;
+            this.btn_SendwithEnter.Click += new System.EventHandler(this.btn_SendwithEnter_Click);
             // 
             // Form1
             // 

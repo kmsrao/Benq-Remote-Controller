@@ -77,6 +77,11 @@ namespace BenQ_Remote_Control
 
         private void btn_Send_Click(object sender, EventArgs e)
         {
+            serialPortCommander.SendCommand(textBox1.Text);
+        }
+
+        private void btn_SendwithEnter_Click(object sender, EventArgs e)
+        {
             serialPortCommander.SendLineCommand(textBox1.Text);
         }
     }

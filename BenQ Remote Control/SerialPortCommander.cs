@@ -26,6 +26,13 @@ namespace BenQ_Remote_Control
             _serialPort.ReadTimeout = 500;
             _serialPort.WriteTimeout = 500;
 
+            _serialPort.DataReceived += _serialPort_DataReceived;
+
+        }
+
+        private void _serialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show(((SerialPort)sender).ReadExisting());
         }
 
         public void SendCommand(string Command)
