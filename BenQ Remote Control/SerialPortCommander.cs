@@ -22,6 +22,8 @@ namespace BenQ_Remote_Control
             _serialPort.DataBits = DataBits;
             _serialPort.StopBits = stopBits;
             _serialPort.Handshake = handshake;
+            _serialPort.NewLine = "\r";
+            _serialPort.Encoding = Encoding.UTF8;
 
             _serialPort.ReadTimeout = 500;
             _serialPort.WriteTimeout = 500;
@@ -60,7 +62,7 @@ namespace BenQ_Remote_Control
                 _serialPort.Open();
                 if (_serialPort.IsOpen)
                 {
-                    _serialPort.NewLine = "\r";
+                    
                     _serialPort.WriteLine(Command);
                     _serialPort.Close();
 
