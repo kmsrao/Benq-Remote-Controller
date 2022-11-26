@@ -35,7 +35,7 @@ namespace BenQ_Remote_Control
                 _serialPort.Open();
                 if (_serialPort.IsOpen)
                 {
-                    _serialPort.Write(Command);
+                    _serialPort.WriteLine(Command);
                     _serialPort.Close();
 
                 }
