@@ -24,6 +24,7 @@ namespace BenQ_Remote_Control
             _serialPort.Handshake = handshake;
             _serialPort.NewLine = "\r";
             _serialPort.Encoding = Encoding.UTF8;
+            _serialPort.DtrEnable = true;
 
             _serialPort.ReadTimeout = 500;
             _serialPort.WriteTimeout = 500;
